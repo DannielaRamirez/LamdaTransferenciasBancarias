@@ -1,0 +1,14 @@
+service: TransactionTransfer
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+
+functions:
+  transaction:
+    handler: handler.transfer
+    events:
+      - httpApi:
+          path: /
+          method: get

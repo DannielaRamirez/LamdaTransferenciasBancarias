@@ -1,0 +1,23 @@
+{
+    "urlBank": "http://localhost:8000",
+    "transfer": {
+      "senderBank": {
+        "bankName": "Pichincha",
+        "bankAccountNumber": "TDAR22892928",
+        "document": "89908989",
+        "accountHolderName": "Daniela",
+        "accountHolderLastName": "Ramirez",
+        "accountType": "AHR"
+      },
+      "recipientBank": {
+        "bankName": "Davivienda",
+        "bankAccountNumber": "DAV656776",
+        "document": "786878787",
+        "accountHolderName": "Timur",
+        "accountHolderLastName": "Scondt",
+        "accountType": "COR"
+      }
+    },
+    "amount": 5
+  }
+  
